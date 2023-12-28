@@ -58,9 +58,14 @@
   (pad "1" thru_hole circle (at -2.54 3.81 90) (size 2.5 2.5) (drill 1.5) (layers "*.Cu" "*.Mask") (tstamp d4adbfc9-3ca1-4d32-95dd-cfcd81448960))
   (pad "2" thru_hole circle (at -5.08 -2.54 90) (size 2.5 2.5) (drill 1.5) (layers "*.Cu" "*.Mask") (tstamp c3ed9592-75c8-40e5-90de-8eb843edb9a6))
   (pad "2" thru_hole circle (at -2.54 -3.81 90) (size 2.5 2.5) (drill 1.5) (layers "*.Cu" "*.Mask") (tstamp 8e6d8283-c59c-4020-a021-29c61aad6c58))
-  (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
+  (model "${KIPRJMOD}/3dmodels/ScottoKeebs_CAD.3dshapes/MX_CAD.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
+  )
+  (model "${KIPRJMOD}/3dmodels/ScottoKeebs_CAD.3dshapes/MX_1.25u_CAD.step"
+    (offset (xyz 0 0 15))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 180 0))
   )
 )

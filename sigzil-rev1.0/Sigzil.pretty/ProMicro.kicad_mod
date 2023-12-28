@@ -101,4 +101,9 @@
   (pad "23" thru_hole circle (at 6.42 -12.23) (size 1.524 1.524) (drill 0.8128) (layers "*.Cu" "*.Mask" "F.SilkS") (tstamp cb1d7a03-04ca-4ec8-928a-a63499fa4f91))
   (pad "24" thru_hole circle (at -7.521185 -13.574255 180) (size 1.524 1.524) (drill 0.8128) (layers "*.Cu" "*.Mask" "B.SilkS") (tstamp cab4609b-14cc-43aa-9fba-c1336068306f))
   (pad "24" thru_hole circle (at 6.42 -14.77) (size 1.524 1.524) (drill 0.8128) (layers "*.Cu" "*.Mask" "F.SilkS") (tstamp 97d0a9ee-634b-4c0a-b180-170452e78f04))
+  (model "${KIPRJMOD}/3dmodels/ScottoKeebs_MCU.3dshapes/Nice_Nano_V2_Flipped.step"
+    (offset (xyz 0 0 6))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

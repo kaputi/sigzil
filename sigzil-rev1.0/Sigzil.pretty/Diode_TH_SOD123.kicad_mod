@@ -47,4 +47,9 @@
   (pad "1" thru_hole rect (at -1.7 0) (size 1.8 1.5) (drill 0.4) (layers "*.Cu" "*.Mask") (tstamp a95511a3-641a-4d53-b0da-3500afadf358))
   (pad "2" thru_hole rect (at 1.7 0) (size 1.8 1.5) (drill 0.4) (layers "*.Cu" "*.Mask") (tstamp 41fec926-0dd7-46e5-bd72-4f1da82d1de1))
   (pad "2" thru_hole circle (at 5.16 -0.00254 180) (size 1.99898 1.99898) (drill 1) (layers "*.Cu" "*.Mask") (tstamp d80ef69f-439f-4fb2-ad77-496c3f52b51f))
+  (model "${KIPRJMOD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+    (offset (xyz -5 0 0))
+    (scale (xyz 1.3 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
